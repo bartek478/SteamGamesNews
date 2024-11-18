@@ -1,3 +1,15 @@
+# important!!1 - before starting react project, you have to start node server first by typing:
+
+### `node server.js`
+
+it is like this because steam api have some CORS requirements and it is not possible to fetch api simply by doing it in clients browser
+you have to fetch it by server - so server.js
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
