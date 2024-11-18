@@ -2,12 +2,13 @@
 
 ### `node server.js`
 
-it is like this because steam api have some CORS requirements and it is not possible to fetch api simply by doing it in clients browser
-you have to fetch it by server - so server.js
+it is like this because steam api have some CORS requirements and it is not possible to fetch api simply by doing it in clients browser\
+you have to fetch it by server - so server.js\
 
-
-
-
+<br />
+<br />
+<br />
+<br />
 
 
 # Getting Started with Create React App
