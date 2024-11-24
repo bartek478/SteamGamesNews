@@ -5,6 +5,8 @@
 it is like this because steam api have some CORS requirements and it is not possible to fetch api simply by doing it in clients browser\
 you have to fetch it by server - so server.js\
 
+because of that, I cant host this project in github pages, for they dont support running node.js server
+
 <br />
 <br />
 <br />
