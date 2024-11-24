@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+html{
+  background-color: #1b2838;
+}
+
+div{
+  background-color: #1b2838;
+  color: white;
+}
+
+input{
+  width: 25%;
+}

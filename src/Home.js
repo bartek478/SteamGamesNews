@@ -1,7 +1,8 @@
 function Home() {
     return(
         <div>
-            <h1>HOME</h1>
+            <br></br>
+            <h1>Welcome to steam games news</h1>
         </div>
     )
 }

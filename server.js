@@ -21,7 +21,7 @@ app.get('/api/search', async (req, res) => {
 app.get('/api/news', async (req, res) => {
     const { appId } = req.query;
     try {
-        const response = await fetch(`https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=3&maxlength=3000&format=json`);
+        const response = await fetch(`https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=${appId}&count=10&maxlength=3000&format=json`);
         const data = await response.json();
         res.json(data);
     } catch (error) {

@@ -1,9 +1,12 @@
+import './Game.css';
+
 function Game({ param }) {
   return (
-    <div>
-        <h1>Game</h1>
-        <h2>{param.name}</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5>{param.name}</h5>
     </div>
+  </div>
   );
 }
 

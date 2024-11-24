@@ -1,0 +1,23 @@
+.modal-dialog-centered {
+    max-width: 60vw; 
+    margin: auto; 
+}
+
+.modal-content {
+    width: 100%; 
+    background-color: white;
+    border: 1px solid white;
+}
+
+.modal-header{
+    background-color: #2e445e;
+}
+
+.btn-close {
+    filter: invert(1); 
+    opacity: 1;        
+}
+
+.btn-close:hover {
+    filter: invert(1) brightness(1.2); 
+}
